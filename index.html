@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Untessellator Gallery</title>
+  <meta name="description" content="Triangle meshes turned back into their original CAD by Untessellator, each verified face by face against the original STEP file.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3 28 10v12L16 29 4 22V10z' fill='%232f9e94'/%3E%3Cpath d='M16 3 28 10 16 17 4 10z' fill='%239aa9bf'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="./">Untessellator <span>Gallery</span></a>
+    <nav>
+      <a href="https://h0witzer.github.io/Untessellator/">Open the studio</a>
+      <a href="https://github.com/h0witzer/Untessellator">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Mesh in. The original CAD back out.</h1>
+      <p class="lede">
+        Every part below started as an STL. Untessellator turned it back into a STEP solid, and we checked that
+        solid against the part's original CAD file, face by face: <b>the same faces, of the same surface types,
+        each within 1&nbsp;µm of the original</b>. That's the modelling tolerance the original file declares
+        for itself.
+      </p>
+      <div class="stats" id="stats"></div>
+    </section>
+
+    <section class="criteria">
+      <details>
+        <summary>What counts as a match</summary>
+        <ol>
+          <li><b>Same solids.</b> Our STEP has as many solids as the original, and each is valid and closed.</li>
+          <li><b>Same faces.</b> It has exactly as many faces as the original, and exactly as many of each surface
+            type: plane, cylinder, cone, sphere, torus.</li>
+          <li><b>One to one.</b> Every face pairs with a face of the same type in the original.</li>
+          <li><b>Within 1 µm.</b> Points sampled on each face are within 0.001&nbsp;mm of its partner's trimmed
+            face, and the same holds in the other direction. The original STEP files declare an uncertainty of
+            10<sup>−6</sup>&nbsp;m, so a match is as close as the original claims to be.</li>
+          <li><b>Same volume,</b> to within a 1 µm skin over the whole surface.</li>
+        </ol>
+        <p>The input is the part as an STL, in single-precision floats like every STL. Every part page lets you
+          download the STL, our STEP and the original, so you can check them in your own CAD.</p>
+      </details>
+    </section>
+
+    <div class="tabs" role="tablist" aria-label="Collections">
+      <button class="tab" role="tab" id="tab-oneshot" data-corpus="oneshot" aria-selected="true">
+        One-shot<span class="count" data-count="oneshot"></span><small>Auto-paint, no hands</small>
+      </button>
+      <button class="tab" role="tab" id="tab-painted" data-corpus="painted" aria-selected="false">
+        Painted by hand<span class="count" data-count="painted"></span><small>Auto-paint, then fixed in the studio</small>
+      </button>
+    </div>
+    <p class="corpus-note" id="corpus-note"></p>
+
+    <div class="controls" id="controls">
+      <label>Sort
+        <select id="sort">
+          <option value="faces">Most faces</option>
+          <option value="curved">Most curved faces</option>
+          <option value="dev">Closest to the original</option>
+          <option value="tris">Most triangles in</option>
+        </select>
+      </label>
+      <div class="filters" id="filters" aria-label="Show parts with these surface types"></div>
+    </div>
+    <div class="grid" id="grid" role="tabpanel"></div>
+
+    <section class="misses" id="misses" hidden></section>
+  </main>
+
+  <footer>
+    <p>One-shot parts come from the <a href="https://deep-geometry.github.io/abc-dataset/">ABC dataset</a>
+      (Koch et al., CVPR 2019), which collects public Onshape documents. Copyright stays with each part's
+      creator. Their meshes are Onshape's own exports, and no part here was used to train or tune Untessellator.</p>
+    <p><a href="https://github.com/h0witzer/Untessellator">Untessellator</a> is MIT-licensed and runs in your browser.</p>
+  </footer>
+
+  <script type="module" src="js/gallery.js"></script>
+</body>
+</html>

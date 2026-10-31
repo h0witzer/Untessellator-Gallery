@@ -1,0 +1,2775 @@
+{
+ "generated": "2026-10-31",
+ "criteria": {
+  "tol_mm": 0.001
+ },
+ "corpora": {
+  "oneshot": {
+   "tried": 138,
+   "pending": 162,
+   "exported": 135,
+   "matched": 79,
+   "misses": {
+    "face types differ": 40,
+    "not the same solids": 10,
+    "a face is more than the tolerance off": 6,
+    "no export": 3
+   },
+   "set": "ABC held-out Onshape exports: 300 parts that no model was trained or tuned on"
+  },
+  "painted": {
+   "tried": 0,
+   "pending": 0,
+   "exported": 0,
+   "matched": 0,
+   "misses": {}
+  }
+ },
+ "parts": [
+  {
+   "id": "00000393_000",
+   "corpus": "oneshot",
+   "title": "ABC 00000393 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 42,
+   "knit_secs": 3.4,
+   "groups": 181,
+   "triangles": 39376,
+   "faces": 181,
+   "types": {
+    "plane": 181
+   },
+   "edges": [
+    536,
+    536
+   ],
+   "vertices": [
+    351,
+    351
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 0.0002765677399583959,
+   "vol_rel_err": 1.0830241597442922e-06,
+   "param_err": {
+    "axis_deg": 0.0
+   },
+   "diag_mm": 9154.62572007455,
+   "volume_mm3": 1278293973.133248,
+   "zip_bytes": 706935
+  },
+  {
+   "id": "00002817_002",
+   "corpus": "oneshot",
+   "title": "ABC 00002817 \u00b7 part 2",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 23.3,
+   "knit_secs": 3.5,
+   "groups": 93,
+   "triangles": 55506,
+   "faces": 93,
+   "types": {
+    "cylinder": 61,
+    "plane": 32
+   },
+   "edges": [
+    231,
+    231
+   ],
+   "vertices": [
+    154,
+    154
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 8.380725552069527e-06,
+   "vol_rel_err": 4.6410161743029946e-08,
+   "param_err": {
+    "radius": 9.561737999597142e-06,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 238.67443683427612,
+   "volume_mm3": 50900.31752039817,
+   "zip_bytes": 1015907
+  },
+  {
+   "id": "00002233_000",
+   "corpus": "oneshot",
+   "title": "ABC 00002233 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 11.4,
+   "knit_secs": 1.3,
+   "groups": 46,
+   "triangles": 28862,
+   "faces": 46,
+   "types": {
+    "cylinder": 9,
+    "plane": 37
+   },
+   "edges": [
+    126,
+    126
+   ],
+   "vertices": [
+    84,
+    84
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 6.414984428859186e-05,
+   "vol_rel_err": 3.786587745144293e-08,
+   "param_err": {
+    "radius": 4.7645299994236723e-07,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 95.84237088970619,
+   "volume_mm3": 3638.5666850367406,
+   "zip_bytes": 474130
+  },
+  {
+   "id": "00004530_000",
+   "corpus": "oneshot",
+   "title": "ABC 00004530 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 6.8,
+   "knit_secs": 0.8,
+   "groups": 45,
+   "triangles": 12374,
+   "faces": 45,
+   "types": {
+    "cylinder": 4,
+    "plane": 41
+   },
+   "edges": [
+    130,
+    129
+   ],
+   "vertices": [
+    87,
+    86
+   ],
+   "topology_identical": false,
+   "max_dev_mm": 8.348068349899336e-07,
+   "vol_rel_err": 1.5332049731576957e-08,
+   "param_err": {
+    "radius": 5.766699828768651e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 51.69544825250197,
+   "volume_mm3": 725.7402718780963,
+   "zip_bytes": 240949
+  },
+  {
+   "id": "00006322_002",
+   "corpus": "oneshot",
+   "title": "ABC 00006322 \u00b7 part 2",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 6.4,
+   "knit_secs": 0.6,
+   "groups": 43,
+   "triangles": 16974,
+   "faces": 43,
+   "types": {
+    "plane": 43
+   },
+   "edges": [
+    114,
+    114
+   ],
+   "vertices": [
+    74,
+    74
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 5.038918331837447e-06,
+   "vol_rel_err": 1.2222199723457055e-08,
+   "param_err": {
+    "axis_deg": 1.4787793334710982e-06
+   },
+   "diag_mm": 344.73340042208395,
+   "volume_mm3": 462047.74796103116,
+   "zip_bytes": 238533
+  },
+  {
+   "id": "00001582_005",
+   "corpus": "oneshot",
+   "title": "ABC 00001582 \u00b7 part 5",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 8.6,
+   "knit_secs": 1.1,
+   "groups": 41,
+   "triangles": 31382,
+   "faces": 41,
+   "types": {
+    "cylinder": 6,
+    "plane": 35
+   },
+   "edges": [
+    114,
+    114
+   ],
+   "vertices": [
+    76,
+    76
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 7.867590970753937e-07,
+   "vol_rel_err": 5.868532418175407e-09,
+   "param_err": {
+    "radius": 1.2114800007623217e-07,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 73.43875028756958,
+   "volume_mm3": 10488.466190298988,
+   "zip_bytes": 525244
+  },
+  {
+   "id": "00001929_000",
+   "corpus": "oneshot",
+   "title": "ABC 00001929 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 19.2,
+   "knit_secs": 1.5,
+   "groups": 39,
+   "triangles": 54338,
+   "faces": 39,
+   "types": {
+    "cylinder": 14,
+    "plane": 25
+   },
+   "edges": [
+    66,
+    66
+   ],
+   "vertices": [
+    44,
+    44
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.971130402976372e-07,
+   "vol_rel_err": 1.7900574878191828e-08,
+   "param_err": {
+    "radius": 3.3755000128365964e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 29.503220476415795,
+   "volume_mm3": 850.5309480340584,
+   "zip_bytes": 932548
+  },
+  {
+   "id": "00003587_001",
+   "corpus": "oneshot",
+   "title": "ABC 00003587 \u00b7 part 1",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 8.7,
+   "knit_secs": 1.2,
+   "groups": 39,
+   "triangles": 32030,
+   "faces": 39,
+   "types": {
+    "cylinder": 16,
+    "plane": 23
+   },
+   "edges": [
+    108,
+    108
+   ],
+   "vertices": [
+    72,
+    72
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.0489686069961317e-05,
+   "vol_rel_err": 5.12671806209961e-08,
+   "param_err": {
+    "radius": 6.1518949987515725e-06,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 312.3786967738357,
+   "volume_mm3": 319446.9649293545,
+   "zip_bytes": 507078
+  },
+  {
+   "id": "00004811_057",
+   "corpus": "oneshot",
+   "title": "ABC 00004811 \u00b7 part 57",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 5.3,
+   "knit_secs": 0.9,
+   "groups": 39,
+   "triangles": 13078,
+   "faces": 39,
+   "types": {
+    "cylinder": 17,
+    "plane": 22
+   },
+   "edges": [
+    103,
+    99
+   ],
+   "vertices": [
+    70,
+    66
+   ],
+   "topology_identical": false,
+   "max_dev_mm": 5.13006653552391e-06,
+   "vol_rel_err": 5.239880278558538e-09,
+   "param_err": {
+    "radius": 6.607115000001329e-06,
+    "axis_deg": 1.6621199035983837e-05
+   },
+   "diag_mm": 73.60027202938859,
+   "volume_mm3": 1647.091097708557,
+   "zip_bytes": 244091
+  },
+  {
+   "id": "00000880_020",
+   "corpus": "oneshot",
+   "title": "ABC 00000880 \u00b7 part 20",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 10.6,
+   "knit_secs": 1.4,
+   "groups": 37,
+   "triangles": 33144,
+   "faces": 37,
+   "types": {
+    "cylinder": 10,
+    "plane": 27
+   },
+   "edges": [
+    101,
+    100
+   ],
+   "vertices": [
+    67,
+    66
+   ],
+   "topology_identical": false,
+   "max_dev_mm": 4.88924022426048e-06,
+   "vol_rel_err": 1.6858540719487715e-07,
+   "param_err": {
+    "radius": 5.9557089997497314e-06,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 138.7429901250184,
+   "volume_mm3": 54311.895317196984,
+   "zip_bytes": 523199
+  },
+  {
+   "id": "00003583_000",
+   "corpus": "oneshot",
+   "title": "ABC 00003583 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 41,
+   "knit_secs": 1,
+   "groups": 33,
+   "triangles": 19582,
+   "faces": 33,
+   "types": {
+    "cone": 3,
+    "cylinder": 12,
+    "plane": 18
+   },
+   "edges": [
+    56,
+    56
+   ],
+   "vertices": [
+    37,
+    37
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 0.0007996939898343937,
+   "vol_rel_err": 4.70339367110195e-08,
+   "param_err": {
+    "half_angle_deg": 2.5540166674886677e-06,
+    "axis_deg": 0.0,
+    "radius": 6.536999985762293e-08
+   },
+   "diag_mm": 57.10527336526525,
+   "volume_mm3": 7499.9902859893255,
+   "zip_bytes": 485107
+  },
+  {
+   "id": "00003221_002",
+   "corpus": "oneshot",
+   "title": "ABC 00003221 \u00b7 part 2",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 12.3,
+   "knit_secs": 1.2,
+   "groups": 30,
+   "triangles": 39204,
+   "faces": 30,
+   "types": {
+    "cylinder": 6,
+    "plane": 24
+   },
+   "edges": [
+    78,
+    77
+   ],
+   "vertices": [
+    51,
+    50
+   ],
+   "topology_identical": false,
+   "max_dev_mm": 6.496674169952576e-07,
+   "vol_rel_err": 2.0168751974822247e-08,
+   "param_err": {
+    "radius": 2.095729998430329e-07,
+    "axis_deg": 7.143182815269534e-06
+   },
+   "diag_mm": 57.45050157108495,
+   "volume_mm3": 5775.574861985524,
+   "zip_bytes": 601582
+  },
+  {
+   "id": "00002110_000",
+   "corpus": "oneshot",
+   "title": "ABC 00002110 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 7.2,
+   "knit_secs": 0.4,
+   "groups": 28,
+   "triangles": 6488,
+   "faces": 28,
+   "types": {
+    "plane": 28
+   },
+   "edges": [
+    72,
+    72
+   ],
+   "vertices": [
+    48,
+    48
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 9.882054203393276e-05,
+   "vol_rel_err": 2.2648823359295354e-07,
+   "param_err": {
+    "axis_deg": 0.0
+   },
+   "diag_mm": 2527.0447109766533,
+   "volume_mm3": 11516009.225999702,
+   "zip_bytes": 83819
+  },
+  {
+   "id": "00004986_050",
+   "corpus": "oneshot",
+   "title": "ABC 00004986 \u00b7 part 50",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 14.1,
+   "knit_secs": 1.3,
+   "groups": 28,
+   "triangles": 36890,
+   "faces": 28,
+   "types": {
+    "cone": 2,
+    "cylinder": 7,
+    "plane": 19
+   },
+   "edges": [
+    75,
+    75
+   ],
+   "vertices": [
+    50,
+    50
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.2444672688685082e-06,
+   "vol_rel_err": 2.0005065385885196e-08,
+   "param_err": {
+    "half_angle_deg": 1.9284613443915077e-06,
+    "axis_deg": 4.597711793052988e-06,
+    "radius": 1.872919996870337e-07
+   },
+   "diag_mm": 57.52844978043472,
+   "volume_mm3": 9756.693024401158,
+   "zip_bytes": 652793
+  },
+  {
+   "id": "00001173_004",
+   "corpus": "oneshot",
+   "title": "ABC 00001173 \u00b7 part 4",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 5,
+   "knit_secs": 0.7,
+   "groups": 26,
+   "triangles": 23312,
+   "faces": 26,
+   "types": {
+    "plane": 26
+   },
+   "edges": [
+    48,
+    48
+   ],
+   "vertices": [
+    24,
+    24
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.1013412404281553e-13,
+   "vol_rel_err": 6.66878155214804e-16,
+   "param_err": {
+    "axis_deg": 8.537736462515939e-07
+   },
+   "diag_mm": 1184.5851597233525,
+   "volume_mm3": 11172326.666666668,
+   "zip_bytes": 411282
+  },
+  {
+   "id": "00002136_006",
+   "corpus": "oneshot",
+   "title": "ABC 00002136 \u00b7 part 6",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 11.6,
+   "knit_secs": 1.2,
+   "groups": 26,
+   "triangles": 31350,
+   "faces": 26,
+   "types": {
+    "cylinder": 15,
+    "plane": 11
+   },
+   "edges": [
+    72,
+    72
+   ],
+   "vertices": [
+    48,
+    48
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 2.9824607446875006e-07,
+   "vol_rel_err": 3.681228214505448e-09,
+   "param_err": {
+    "radius": 2.945770001261394e-07,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 80.58884876271655,
+   "volume_mm3": 13364.370763033987,
+   "zip_bytes": 525155
+  },
+  {
+   "id": "00000615_001",
+   "corpus": "oneshot",
+   "title": "ABC 00000615 \u00b7 part 1",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 11,
+   "knit_secs": 0.9,
+   "groups": 22,
+   "triangles": 24266,
+   "faces": 22,
+   "types": {
+    "cylinder": 11,
+    "plane": 11
+   },
+   "edges": [
+    54,
+    54
+   ],
+   "vertices": [
+    36,
+    36
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 3.8136137249211457e-07,
+   "vol_rel_err": 8.704042143606512e-09,
+   "param_err": {
+    "radius": 8.679499985397854e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 21.240293732797582,
+   "volume_mm3": 175.9208535225022,
+   "zip_bytes": 510017
+  },
+  {
+   "id": "00002352_000",
+   "corpus": "oneshot",
+   "title": "ABC 00002352 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 5,
+   "knit_secs": 0.8,
+   "groups": 22,
+   "triangles": 26064,
+   "faces": 22,
+   "types": {
+    "cylinder": 3,
+    "plane": 19
+   },
+   "edges": [
+    60,
+    60
+   ],
+   "vertices": [
+    40,
+    40
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 3.8837747898104404e-07,
+   "vol_rel_err": 1.1598615661482964e-08,
+   "param_err": {
+    "radius": 1.1234299979179241e-07,
+    "axis_deg": 1.7075472925031877e-06
+   },
+   "diag_mm": 116.74190241553332,
+   "volume_mm3": 26308.382129690453,
+   "zip_bytes": 439976
+  },
+  {
+   "id": "00004505_000",
+   "corpus": "oneshot",
+   "title": "ABC 00004505 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 14.4,
+   "knit_secs": 3,
+   "groups": 22,
+   "triangles": 44736,
+   "faces": 22,
+   "types": {
+    "cylinder": 10,
+    "plane": 12
+   },
+   "edges": [
+    54,
+    54
+   ],
+   "vertices": [
+    36,
+    36
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.2554641415783875e-06,
+   "vol_rel_err": 2.3815505363105314e-08,
+   "param_err": {
+    "radius": 9.61521999798265e-07,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 79.62757529339696,
+   "volume_mm3": 35540.98593319763,
+   "zip_bytes": 793414
+  },
+  {
+   "id": "00000894_003",
+   "corpus": "oneshot",
+   "title": "ABC 00000894 \u00b7 part 3",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 2.9,
+   "knit_secs": 0.4,
+   "groups": 20,
+   "triangles": 8456,
+   "faces": 20,
+   "types": {
+    "cylinder": 2,
+    "plane": 18
+   },
+   "edges": [
+    55,
+    54
+   ],
+   "vertices": [
+    37,
+    36
+   ],
+   "topology_identical": false,
+   "max_dev_mm": 3.4123023455025013e-06,
+   "vol_rel_err": 8.253835788672419e-08,
+   "param_err": {
+    "radius": 9.898640001004821e-07,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 186.460914158201,
+   "volume_mm3": 25615.301319874212,
+   "zip_bytes": 115797
+  },
+  {
+   "id": "00005315_007",
+   "corpus": "oneshot",
+   "title": "ABC 00005315 \u00b7 part 7",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 10.3,
+   "knit_secs": 1.1,
+   "groups": 20,
+   "triangles": 29152,
+   "faces": 20,
+   "types": {
+    "cylinder": 16,
+    "plane": 4
+   },
+   "edges": [
+    48,
+    48
+   ],
+   "vertices": [
+    32,
+    32
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.467061001418856e-07,
+   "vol_rel_err": 3.5475326685492813e-09,
+   "param_err": {
+    "radius": 1.1060000026930084e-07,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 99.31767244151466,
+   "volume_mm3": 24268.01785081775,
+   "zip_bytes": 551091
+  },
+  {
+   "id": "00005703_001",
+   "corpus": "oneshot",
+   "title": "ABC 00005703 \u00b7 part 1",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 118.9,
+   "knit_secs": 1.4,
+   "groups": 20,
+   "triangles": 34380,
+   "faces": 20,
+   "types": {
+    "cone": 6,
+    "plane": 14
+   },
+   "edges": [
+    54,
+    54
+   ],
+   "vertices": [
+    36,
+    36
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 2.2107116329329945e-05,
+   "vol_rel_err": 2.0667180547179337e-07,
+   "param_err": {
+    "half_angle_deg": 8.700937073058412e-07,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 120.03562545140116,
+   "volume_mm3": 17644.04312861432,
+   "zip_bytes": 925412
+  },
+  {
+   "id": "00000079_020",
+   "corpus": "oneshot",
+   "title": "ABC 00000079 \u00b7 part 20",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 9.2,
+   "knit_secs": 1.3,
+   "groups": 19,
+   "triangles": 34518,
+   "faces": 19,
+   "types": {
+    "cylinder": 4,
+    "plane": 15
+   },
+   "edges": [
+    48,
+    48
+   ],
+   "vertices": [
+    32,
+    32
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 8.174175950936789e-07,
+   "vol_rel_err": 6.43024686778005e-08,
+   "param_err": {
+    "radius": 2.2551500045153716e-07,
+    "axis_deg": 4.182619578303747e-06
+   },
+   "diag_mm": 68.5770355111919,
+   "volume_mm3": 5474.671572819756,
+   "zip_bytes": 557060
+  },
+  {
+   "id": "00002260_003",
+   "corpus": "oneshot",
+   "title": "ABC 00002260 \u00b7 part 3",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 5.9,
+   "knit_secs": 1,
+   "groups": 18,
+   "triangles": 27414,
+   "faces": 18,
+   "types": {
+    "cylinder": 4,
+    "plane": 14
+   },
+   "edges": [
+    48,
+    48
+   ],
+   "vertices": [
+    32,
+    32
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 8.197594659181886e-05,
+   "vol_rel_err": 5.177895377411877e-08,
+   "param_err": {
+    "radius": 6.457319998709465e-07,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 29.25000028888889,
+   "volume_mm3": 445.13495408493617,
+   "zip_bytes": 474204
+  },
+  {
+   "id": "00002348_005",
+   "corpus": "oneshot",
+   "title": "ABC 00002348 \u00b7 part 5",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 5.6,
+   "knit_secs": 0.6,
+   "groups": 18,
+   "triangles": 19134,
+   "faces": 18,
+   "types": {
+    "cylinder": 6,
+    "plane": 12
+   },
+   "edges": [
+    42,
+    42
+   ],
+   "vertices": [
+    28,
+    28
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 7.646251859137598e-06,
+   "vol_rel_err": 1.8722606323711682e-07,
+   "param_err": {
+    "radius": 1.7372999927545152e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 264.81667353177716,
+   "volume_mm3": 38694.84593064056,
+   "zip_bytes": 301412
+  },
+  {
+   "id": "00002891_000",
+   "corpus": "oneshot",
+   "title": "ABC 00002891 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 21.7,
+   "knit_secs": 0.9,
+   "groups": 18,
+   "triangles": 37450,
+   "faces": 18,
+   "types": {
+    "cylinder": 8,
+    "plane": 10
+   },
+   "edges": [
+    40,
+    40
+   ],
+   "vertices": [
+    24,
+    24
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 0.000605671883877955,
+   "vol_rel_err": 4.787286924190939e-08,
+   "param_err": {
+    "radius": 8.481010009830925e-07,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 179.83517558158954,
+   "volume_mm3": 650319.5597820218,
+   "zip_bytes": 700808
+  },
+  {
+   "id": "00004644_003",
+   "corpus": "oneshot",
+   "title": "ABC 00004644 \u00b7 part 3",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 7.8,
+   "knit_secs": 1.7,
+   "groups": 18,
+   "triangles": 58082,
+   "faces": 18,
+   "types": {
+    "cylinder": 4,
+    "plane": 14
+   },
+   "edges": [
+    48,
+    48
+   ],
+   "vertices": [
+    32,
+    32
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 2.0829915016101494e-06,
+   "vol_rel_err": 3.664415938097793e-08,
+   "param_err": {
+    "radius": 2.3608999866198133e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 84.73146511254261,
+   "volume_mm3": 15241.391761566916,
+   "zip_bytes": 1002438
+  },
+  {
+   "id": "00000566_000",
+   "corpus": "oneshot",
+   "title": "ABC 00000566 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 6,
+   "knit_secs": 1,
+   "groups": 17,
+   "triangles": 29656,
+   "faces": 17,
+   "types": {
+    "cylinder": 11,
+    "plane": 6
+   },
+   "edges": [
+    45,
+    45
+   ],
+   "vertices": [
+    30,
+    30
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 9.719209100113267e-06,
+   "vol_rel_err": 2.5046496213984842e-08,
+   "param_err": {
+    "radius": 9.844221000143705e-06,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 323.20284776943106,
+   "volume_mm3": 154776.0982695256,
+   "zip_bytes": 601242
+  },
+  {
+   "id": "00001307_003",
+   "corpus": "oneshot",
+   "title": "ABC 00001307 \u00b7 part 3",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 5.5,
+   "knit_secs": 0.4,
+   "groups": 16,
+   "triangles": 13198,
+   "faces": 16,
+   "types": {
+    "plane": 16
+   },
+   "edges": [
+    36,
+    36
+   ],
+   "vertices": [
+    24,
+    24
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 3.320790215231956e-06,
+   "vol_rel_err": 1.146460495685095e-06,
+   "param_err": {
+    "axis_deg": 0.0
+   },
+   "diag_mm": 314.63859533067995,
+   "volume_mm3": 47903.99999999942,
+   "zip_bytes": 167929
+  },
+  {
+   "id": "00000423_001",
+   "corpus": "oneshot",
+   "title": "ABC 00000423 \u00b7 part 1",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 7,
+   "knit_secs": 1,
+   "groups": 15,
+   "triangles": 32802,
+   "faces": 15,
+   "types": {
+    "cylinder": 5,
+    "plane": 10
+   },
+   "edges": [
+    35,
+    35
+   ],
+   "vertices": [
+    22,
+    22
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 4.97595731060006e-07,
+   "vol_rel_err": 6.628906507725253e-09,
+   "param_err": {
+    "radius": 6.507319998405592e-07,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 73.44385640746273,
+   "volume_mm3": 8693.319101689696,
+   "zip_bytes": 562474
+  },
+  {
+   "id": "00002056_000",
+   "corpus": "oneshot",
+   "title": "ABC 00002056 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 9.8,
+   "knit_secs": 1,
+   "groups": 15,
+   "triangles": 29944,
+   "faces": 15,
+   "types": {
+    "cylinder": 5,
+    "plane": 10
+   },
+   "edges": [
+    40,
+    39
+   ],
+   "vertices": [
+    27,
+    26
+   ],
+   "topology_identical": false,
+   "max_dev_mm": 2.0082500205696821e-07,
+   "vol_rel_err": 2.442160346167477e-08,
+   "param_err": {
+    "radius": 1.4246699997499945e-07,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 18.78190649119934,
+   "volume_mm3": 270.20877358382535,
+   "zip_bytes": 591253
+  },
+  {
+   "id": "00003971_006",
+   "corpus": "oneshot",
+   "title": "ABC 00003971 \u00b7 part 6",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 21,
+   "knit_secs": 1,
+   "groups": 15,
+   "triangles": 34332,
+   "faces": 15,
+   "types": {
+    "cone": 2,
+    "cylinder": 3,
+    "plane": 10
+   },
+   "edges": [
+    32,
+    33
+   ],
+   "vertices": [
+    21,
+    22
+   ],
+   "topology_identical": false,
+   "max_dev_mm": 8.763470211354173e-07,
+   "vol_rel_err": 2.1004909752013942e-08,
+   "param_err": {
+    "half_angle_deg": 9.725385652359364e-07,
+    "axis_deg": 0.0,
+    "radius": 4.791100005618887e-08
+   },
+   "diag_mm": 58.84250197332551,
+   "volume_mm3": 16587.506389662973,
+   "zip_bytes": 717169
+  },
+  {
+   "id": "00004473_001",
+   "corpus": "oneshot",
+   "title": "ABC 00004473 \u00b7 part 1",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 12.7,
+   "knit_secs": 0.6,
+   "groups": 15,
+   "triangles": 30052,
+   "faces": 15,
+   "types": {
+    "cylinder": 6,
+    "plane": 9
+   },
+   "edges": [
+    24,
+    24
+   ],
+   "vertices": [
+    16,
+    16
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 9.766920758568298e-07,
+   "vol_rel_err": 1.1034676936077499e-09,
+   "param_err": {
+    "radius": 5.3921999976225266e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 72.36607801012848,
+   "volume_mm3": 29158.14771715241,
+   "zip_bytes": 855434
+  },
+  {
+   "id": "00001314_000",
+   "corpus": "oneshot",
+   "title": "ABC 00001314 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 10.7,
+   "knit_secs": 1.4,
+   "groups": 14,
+   "triangles": 50278,
+   "faces": 14,
+   "types": {
+    "cylinder": 3,
+    "plane": 11
+   },
+   "edges": [
+    36,
+    36
+   ],
+   "vertices": [
+    24,
+    24
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 9.965181357773553e-07,
+   "vol_rel_err": 4.841857508713472e-08,
+   "param_err": {
+    "radius": 7.322459998349018e-07,
+    "axis_deg": 4.90455619685548e-06
+   },
+   "diag_mm": 44.429073021389954,
+   "volume_mm3": 8389.782121905217,
+   "zip_bytes": 863960
+  },
+  {
+   "id": "00002169_004",
+   "corpus": "oneshot",
+   "title": "ABC 00002169 \u00b7 part 4",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 71.7,
+   "knit_secs": 1.3,
+   "groups": 14,
+   "triangles": 49300,
+   "faces": 14,
+   "types": {
+    "cone": 2,
+    "cylinder": 6,
+    "plane": 6
+   },
+   "edges": [
+    22,
+    24
+   ],
+   "vertices": [
+    14,
+    16
+   ],
+   "topology_identical": false,
+   "max_dev_mm": 9.906418958107698e-08,
+   "vol_rel_err": 5.369326090516338e-09,
+   "param_err": {
+    "half_angle_deg": 2.3353759814881414e-07,
+    "axis_deg": 0.0,
+    "radius": 7.56620002206887e-08
+   },
+   "diag_mm": 32.45766507933183,
+   "volume_mm3": 2124.305682448616,
+   "zip_bytes": 1186255
+  },
+  {
+   "id": "00000929_000",
+   "corpus": "oneshot",
+   "title": "ABC 00000929 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 9.7,
+   "knit_secs": 1.8,
+   "groups": 12,
+   "triangles": 55730,
+   "faces": 12,
+   "types": {
+    "plane": 12
+   },
+   "edges": [
+    24,
+    24
+   ],
+   "vertices": [
+    16,
+    16
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 4.7684000081815725e-08,
+   "vol_rel_err": 8.940750024777347e-08,
+   "param_err": {
+    "axis_deg": 0.0
+   },
+   "diag_mm": 14.192956298107882,
+   "volume_mm3": 39.999999999999986,
+   "zip_bytes": 1081549
+  },
+  {
+   "id": "00001659_000",
+   "corpus": "oneshot",
+   "title": "ABC 00001659 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 10.3,
+   "knit_secs": 0.8,
+   "groups": 11,
+   "triangles": 30238,
+   "faces": 11,
+   "types": {
+    "cylinder": 5,
+    "plane": 6
+   },
+   "edges": [
+    15,
+    15
+   ],
+   "vertices": [
+    10,
+    10
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 3.886892947185281e-07,
+   "vol_rel_err": 8.211928664944408e-09,
+   "param_err": {
+    "radius": 3.108400115081622e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 37.38238254124528,
+   "volume_mm3": 2119.4965801673407,
+   "zip_bytes": 667922
+  },
+  {
+   "id": "00005057_009",
+   "corpus": "oneshot",
+   "title": "ABC 00005057 \u00b7 part 9",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 13.2,
+   "knit_secs": 0.9,
+   "groups": 11,
+   "triangles": 39954,
+   "faces": 11,
+   "types": {
+    "cylinder": 5,
+    "plane": 6
+   },
+   "edges": [
+    21,
+    21
+   ],
+   "vertices": [
+    14,
+    14
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 3.269371052055306e-08,
+   "vol_rel_err": 4.112153530908332e-10,
+   "param_err": {
+    "radius": 9.160999070445541e-09,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 82.00609766352744,
+   "volume_mm3": 31521.34321975005,
+   "zip_bytes": 870229
+  },
+  {
+   "id": "00002718_004",
+   "corpus": "oneshot",
+   "title": "ABC 00002718 \u00b7 part 4",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 6.6,
+   "knit_secs": 1.3,
+   "groups": 10,
+   "triangles": 55760,
+   "faces": 10,
+   "types": {
+    "plane": 10
+   },
+   "edges": [
+    24,
+    24
+   ],
+   "vertices": [
+    16,
+    16
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 5.76259314700362e-07,
+   "vol_rel_err": 5.0438855462581715e-08,
+   "param_err": {
+    "axis_deg": 0.0
+   },
+   "diag_mm": 33.406553104922395,
+   "volume_mm3": 2285.9954279999984,
+   "zip_bytes": 937976
+  },
+  {
+   "id": "00003209_014",
+   "corpus": "oneshot",
+   "title": "ABC 00003209 \u00b7 part 14",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 3.7,
+   "knit_secs": 0.3,
+   "groups": 10,
+   "triangles": 10292,
+   "faces": 10,
+   "types": {
+    "cylinder": 4,
+    "plane": 6
+   },
+   "edges": [
+    28,
+    24
+   ],
+   "vertices": [
+    20,
+    16
+   ],
+   "topology_identical": false,
+   "max_dev_mm": 1.230242221600787e-05,
+   "vol_rel_err": 9.44204161845259e-08,
+   "param_err": {
+    "radius": 1.203769999236215e-07,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 307.4344485288531,
+   "volume_mm3": 142657.18726159638,
+   "zip_bytes": 158558
+  },
+  {
+   "id": "00003371_001",
+   "corpus": "oneshot",
+   "title": "ABC 00003371 \u00b7 part 1",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 4.7,
+   "knit_secs": 0.5,
+   "groups": 10,
+   "triangles": 24392,
+   "faces": 10,
+   "types": {
+    "cylinder": 1,
+    "plane": 9
+   },
+   "edges": [
+    24,
+    24
+   ],
+   "vertices": [
+    16,
+    16
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 6.343178000633998e-06,
+   "vol_rel_err": 3.8011765340980486e-07,
+   "param_err": {
+    "radius": 1.3861499992273707e-07,
+    "axis_deg": 3.52019892386405e-06
+   },
+   "diag_mm": 77.39509057814973,
+   "volume_mm3": 19074.57412314704,
+   "zip_bytes": 415645
+  },
+  {
+   "id": "00004747_000",
+   "corpus": "oneshot",
+   "title": "ABC 00004747 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 6.5,
+   "knit_secs": 0.6,
+   "groups": 10,
+   "triangles": 29972,
+   "faces": 10,
+   "types": {
+    "cylinder": 2,
+    "plane": 8
+   },
+   "edges": [
+    24,
+    24
+   ],
+   "vertices": [
+    16,
+    16
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 5.72834807797025e-06,
+   "vol_rel_err": 5.21295203582276e-08,
+   "param_err": {
+    "radius": 2.312939999526975e-07,
+    "axis_deg": 2.4148365394514667e-06
+   },
+   "diag_mm": 171.56375296853378,
+   "volume_mm3": 71920.25459519392,
+   "zip_bytes": 601578
+  },
+  {
+   "id": "00000994_001",
+   "corpus": "oneshot",
+   "title": "ABC 00000994 \u00b7 part 1",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 1.7,
+   "knit_secs": 0.2,
+   "groups": 9,
+   "triangles": 3464,
+   "faces": 9,
+   "types": {
+    "cylinder": 3,
+    "plane": 6
+   },
+   "edges": [
+    21,
+    21
+   ],
+   "vertices": [
+    14,
+    14
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.1031055425742708e-06,
+   "vol_rel_err": 1.608573689133171e-08,
+   "param_err": {
+    "radius": 3.405659998456656e-07,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 127.16112846589559,
+   "volume_mm3": 594.5089771594687,
+   "zip_bytes": 45618
+  },
+  {
+   "id": "00001170_001",
+   "corpus": "oneshot",
+   "title": "ABC 00001170 \u00b7 part 1",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 3.1,
+   "knit_secs": 0.2,
+   "groups": 9,
+   "triangles": 7772,
+   "faces": 9,
+   "types": {
+    "plane": 9
+   },
+   "edges": [
+    21,
+    21
+   ],
+   "vertices": [
+    14,
+    14
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 7.442380024258455e-06,
+   "vol_rel_err": 1.5406943975850152e-14,
+   "param_err": {
+    "axis_deg": 1.0663629423853027e-05
+   },
+   "diag_mm": 707.055867896166,
+   "volume_mm3": 1027620.0000000001,
+   "zip_bytes": 110980
+  },
+  {
+   "id": "00002440_009",
+   "corpus": "oneshot",
+   "title": "ABC 00002440 \u00b7 part 9",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 3.4,
+   "knit_secs": 0.6,
+   "groups": 9,
+   "triangles": 21760,
+   "faces": 9,
+   "types": {
+    "cylinder": 1,
+    "plane": 8
+   },
+   "edges": [
+    21,
+    21
+   ],
+   "vertices": [
+    14,
+    14
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.5011630057609112e-06,
+   "vol_rel_err": 8.08625963197636e-09,
+   "param_err": {
+    "radius": 8.386999894582914e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 88.95965406137773,
+   "volume_mm3": 3029.3487675404713,
+   "zip_bytes": 424287
+  },
+  {
+   "id": "00000842_002",
+   "corpus": "oneshot",
+   "title": "ABC 00000842 \u00b7 part 2",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 3.3,
+   "knit_secs": 0.5,
+   "groups": 8,
+   "triangles": 17184,
+   "faces": 8,
+   "types": {
+    "cylinder": 3,
+    "plane": 5
+   },
+   "edges": [
+    18,
+    18
+   ],
+   "vertices": [
+    12,
+    12
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 7.072918435614084e-06,
+   "vol_rel_err": 5.830941554290518e-08,
+   "param_err": {
+    "radius": 5.7972100000469595e-06,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 321.6186263093688,
+   "volume_mm3": 497241.10030738905,
+   "zip_bytes": 314976
+  },
+  {
+   "id": "00002220_000",
+   "corpus": "oneshot",
+   "title": "ABC 00002220 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 6.4,
+   "knit_secs": 1.1,
+   "groups": 8,
+   "triangles": 39798,
+   "faces": 8,
+   "types": {
+    "plane": 8
+   },
+   "edges": [
+    18,
+    18
+   ],
+   "vertices": [
+    12,
+    12
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 0.00011779927228895624,
+   "vol_rel_err": 1.2825941361790593e-07,
+   "param_err": {
+    "axis_deg": 0.0
+   },
+   "diag_mm": 3311.973975175572,
+   "volume_mm3": 1118515440.3839993,
+   "zip_bytes": 703245
+  },
+  {
+   "id": "00002221_001",
+   "corpus": "oneshot",
+   "title": "ABC 00002221 \u00b7 part 1",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 2.1,
+   "knit_secs": 0.2,
+   "groups": 8,
+   "triangles": 9642,
+   "faces": 8,
+   "types": {
+    "plane": 8
+   },
+   "edges": [
+    18,
+    18
+   ],
+   "vertices": [
+    12,
+    12
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 2.4615881901288146e-05,
+   "vol_rel_err": 1.4038779262023732e-07,
+   "param_err": {
+    "axis_deg": 0.0
+   },
+   "diag_mm": 920.728103419636,
+   "volume_mm3": 642936.2141250004,
+   "zip_bytes": 123236
+  },
+  {
+   "id": "00002407_004",
+   "corpus": "oneshot",
+   "title": "ABC 00002407 \u00b7 part 4",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 6.9,
+   "knit_secs": 0.7,
+   "groups": 8,
+   "triangles": 26476,
+   "faces": 8,
+   "types": {
+    "cylinder": 6,
+    "plane": 2
+   },
+   "edges": [
+    18,
+    18
+   ],
+   "vertices": [
+    12,
+    12
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 2.2516792424541118e-07,
+   "vol_rel_err": 1.4955120061140958e-08,
+   "param_err": {
+    "radius": 6.861499990407083e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 72.12213629101679,
+   "volume_mm3": 11309.837610325922,
+   "zip_bytes": 489024
+  },
+  {
+   "id": "00000843_003",
+   "corpus": "oneshot",
+   "title": "ABC 00000843 \u00b7 part 3",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 5.2,
+   "knit_secs": 0.7,
+   "groups": 7,
+   "triangles": 26290,
+   "faces": 7,
+   "types": {
+    "cylinder": 1,
+    "plane": 6
+   },
+   "edges": [
+    15,
+    15
+   ],
+   "vertices": [
+    10,
+    10
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.5382317639544533e-06,
+   "vol_rel_err": 4.4052023338190484e-08,
+   "param_err": {
+    "radius": 6.47250004703892e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 189.22573850235068,
+   "volume_mm3": 162478.52663536888,
+   "zip_bytes": 360367
+  },
+  {
+   "id": "00001885_011",
+   "corpus": "oneshot",
+   "title": "ABC 00001885 \u00b7 part 11",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 5.1,
+   "knit_secs": 0.5,
+   "groups": 7,
+   "triangles": 17194,
+   "faces": 7,
+   "types": {
+    "cylinder": 3,
+    "plane": 4
+   },
+   "edges": [
+    15,
+    15
+   ],
+   "vertices": [
+    10,
+    10
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 2.562256114558794e-07,
+   "vol_rel_err": 2.2379926077126667e-08,
+   "param_err": {
+    "radius": 2.3379700309078544e-07,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 107.90333666370101,
+   "volume_mm3": 12894.079996434306,
+   "zip_bytes": 306404
+  },
+  {
+   "id": "00003337_000",
+   "corpus": "oneshot",
+   "title": "ABC 00003337 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 9.1,
+   "knit_secs": 1,
+   "groups": 7,
+   "triangles": 38762,
+   "faces": 7,
+   "types": {
+    "cylinder": 1,
+    "plane": 6
+   },
+   "edges": [
+    15,
+    15
+   ],
+   "vertices": [
+    10,
+    10
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.0570881845351818e-06,
+   "vol_rel_err": 1.4526269453263303e-08,
+   "param_err": {
+    "radius": 1.5908000250419718e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 94.23921534713472,
+   "volume_mm3": 71688.03943754225,
+   "zip_bytes": 910515
+  },
+  {
+   "id": "00003811_001",
+   "corpus": "oneshot",
+   "title": "ABC 00003811 \u00b7 part 1",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 1.6,
+   "knit_secs": 0.1,
+   "groups": 7,
+   "triangles": 4134,
+   "faces": 7,
+   "types": {
+    "cylinder": 3,
+    "plane": 4
+   },
+   "edges": [
+    16,
+    15
+   ],
+   "vertices": [
+    11,
+    10
+   ],
+   "topology_identical": false,
+   "max_dev_mm": 2.0204413668001753e-07,
+   "vol_rel_err": 1.804682959693992e-08,
+   "param_err": {
+    "radius": 5.0184999988989176e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 23.75146198441862,
+   "volume_mm3": 17.351954470117423,
+   "zip_bytes": 69114
+  },
+  {
+   "id": "00004433_000",
+   "corpus": "oneshot",
+   "title": "ABC 00004433 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 4.4,
+   "knit_secs": 0.7,
+   "groups": 7,
+   "triangles": 33488,
+   "faces": 7,
+   "types": {
+    "cylinder": 1,
+    "plane": 6
+   },
+   "edges": [
+    15,
+    15
+   ],
+   "vertices": [
+    10,
+    10
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 9.309692450934556e-07,
+   "vol_rel_err": 2.209244035922922e-10,
+   "param_err": {
+    "radius": 2.8081200031948583e-07,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 283.5489378714016,
+   "volume_mm3": 798429.2036732051,
+   "zip_bytes": 578090
+  },
+  {
+   "id": "00005229_053",
+   "corpus": "oneshot",
+   "title": "ABC 00005229 \u00b7 part 53",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 39.9,
+   "knit_secs": 0.7,
+   "groups": 7,
+   "triangles": 29724,
+   "faces": 7,
+   "types": {
+    "cone": 2,
+    "cylinder": 2,
+    "plane": 3
+   },
+   "edges": [
+    10,
+    11
+   ],
+   "vertices": [
+    6,
+    7
+   ],
+   "topology_identical": false,
+   "max_dev_mm": 7.473377255399872e-08,
+   "vol_rel_err": 1.3588387823134186e-09,
+   "param_err": {
+    "half_angle_deg": 1.0169427895334593e-06,
+    "axis_deg": 0.0,
+    "radius": 2.207099925044531e-08
+   },
+   "diag_mm": 31.67017557892599,
+   "volume_mm3": 2577.1531734940495,
+   "zip_bytes": 651690
+  },
+  {
+   "id": "00000022_002",
+   "corpus": "oneshot",
+   "title": "ABC 00000022 \u00b7 part 2",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 9.1,
+   "knit_secs": 1.6,
+   "groups": 6,
+   "triangles": 53242,
+   "faces": 6,
+   "types": {
+    "plane": 6
+   },
+   "edges": [
+    12,
+    12
+   ],
+   "vertices": [
+    8,
+    8
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.7347234759768e-15,
+   "vol_rel_err": 0.0,
+   "param_err": {
+    "axis_deg": 0.0
+   },
+   "diag_mm": 43.3012705356321,
+   "volume_mm3": 15624.999999999998,
+   "zip_bytes": 957462
+  },
+  {
+   "id": "00000511_000",
+   "corpus": "oneshot",
+   "title": "ABC 00000511 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 8.4,
+   "knit_secs": 1.7,
+   "groups": 6,
+   "triangles": 53336,
+   "faces": 6,
+   "types": {
+    "plane": 6
+   },
+   "edges": [
+    12,
+    12
+   ],
+   "vertices": [
+    8,
+    8
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.0003962995484337e-06,
+   "vol_rel_err": 3.003684904969038e-08,
+   "param_err": {
+    "axis_deg": 0.0
+   },
+   "diag_mm": 43.994090858659646,
+   "volume_mm3": 16387.064,
+   "zip_bytes": 976479
+  },
+  {
+   "id": "00000694_000",
+   "corpus": "oneshot",
+   "title": "ABC 00000694 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 6.9,
+   "knit_secs": 1.2,
+   "groups": 6,
+   "triangles": 42000,
+   "faces": 6,
+   "types": {
+    "plane": 6
+   },
+   "edges": [
+    12,
+    12
+   ],
+   "vertices": [
+    8,
+    8
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 4.3368086899420197e-16,
+   "vol_rel_err": 0.0,
+   "param_err": {
+    "axis_deg": 0.0
+   },
+   "diag_mm": 4.3588992647227025,
+   "volume_mm3": 9.0,
+   "zip_bytes": 737828
+  },
+  {
+   "id": "00000825_001",
+   "corpus": "oneshot",
+   "title": "ABC 00000825 \u00b7 part 1",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 14.3,
+   "knit_secs": 0.9,
+   "groups": 6,
+   "triangles": 35682,
+   "faces": 6,
+   "types": {
+    "cylinder": 2,
+    "plane": 4
+   },
+   "edges": [
+    6,
+    6
+   ],
+   "vertices": [
+    4,
+    4
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 4.7341593418420985e-07,
+   "vol_rel_err": 1.2335966408047388e-08,
+   "param_err": {
+    "radius": 5.117599943815776e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 50.31661432381953,
+   "volume_mm3": 1900.3810649812103,
+   "zip_bytes": 1064298
+  },
+  {
+   "id": "00001543_010",
+   "corpus": "oneshot",
+   "title": "ABC 00001543 \u00b7 part 10",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 15.4,
+   "knit_secs": 0.9,
+   "groups": 6,
+   "triangles": 41152,
+   "faces": 6,
+   "types": {
+    "cylinder": 3,
+    "plane": 3
+   },
+   "edges": [
+    9,
+    9
+   ],
+   "vertices": [
+    6,
+    6
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.124238994629341e-06,
+   "vol_rel_err": 6.995721115340422e-08,
+   "param_err": {
+    "radius": 1.3279997546078448e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 58.285252546163,
+   "volume_mm3": 7440.68263837232,
+   "zip_bytes": 1133237
+  },
+  {
+   "id": "00001664_000",
+   "corpus": "oneshot",
+   "title": "ABC 00001664 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 5,
+   "knit_secs": 0.9,
+   "groups": 6,
+   "triangles": 39728,
+   "faces": 6,
+   "types": {
+    "plane": 6
+   },
+   "edges": [
+    12,
+    12
+   ],
+   "vertices": [
+    8,
+    8
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.570289775966285e-06,
+   "vol_rel_err": 2.5903542622620317e-08,
+   "param_err": {
+    "axis_deg": 0.0
+   },
+   "diag_mm": 148.622970754084,
+   "volume_mm3": 348781.1145069333,
+   "zip_bytes": 685857
+  },
+  {
+   "id": "00001696_005",
+   "corpus": "oneshot",
+   "title": "ABC 00001696 \u00b7 part 5",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 1.8,
+   "knit_secs": 0.2,
+   "groups": 6,
+   "triangles": 5366,
+   "faces": 6,
+   "types": {
+    "plane": 6
+   },
+   "edges": [
+    12,
+    12
+   ],
+   "vertices": [
+    8,
+    8
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 3.0762987088285812e-06,
+   "vol_rel_err": 5.174942238121029e-07,
+   "param_err": {
+    "axis_deg": 0.0
+   },
+   "diag_mm": 152.93041146709837,
+   "volume_mm3": 1573.2073051919997,
+   "zip_bytes": 70994
+  },
+  {
+   "id": "00001722_000",
+   "corpus": "oneshot",
+   "title": "ABC 00001722 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 2.6,
+   "knit_secs": 0.5,
+   "groups": 6,
+   "triangles": 16290,
+   "faces": 6,
+   "types": {
+    "plane": 6
+   },
+   "edges": [
+    12,
+    12
+   ],
+   "vertices": [
+    8,
+    8
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 2.6889595035237798e-05,
+   "vol_rel_err": 9.38785141622504e-09,
+   "param_err": {
+    "axis_deg": 0.0
+   },
+   "diag_mm": 6294.57583697885,
+   "volume_mm3": 868843903.2834892,
+   "zip_bytes": 434945
+  },
+  {
+   "id": "00002618_000",
+   "corpus": "oneshot",
+   "title": "ABC 00002618 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 71.6,
+   "knit_secs": 34.4,
+   "groups": 9,
+   "triangles": 34052,
+   "faces": 6,
+   "types": {
+    "cylinder": 3,
+    "plane": 2,
+    "torus": 1
+   },
+   "edges": [
+    10,
+    11
+   ],
+   "vertices": [
+    6,
+    7
+   ],
+   "topology_identical": false,
+   "max_dev_mm": 8.643009959352267e-08,
+   "vol_rel_err": 3.1589147413020247e-09,
+   "param_err": {
+    "radius": 1.0096000480075418e-08,
+    "axis_deg": 0.0,
+    "major_radius": 6.503999827600637e-08,
+    "minor_radius": 8.668100015540858e-08
+   },
+   "diag_mm": 74.82017116505514,
+   "volume_mm3": 5161.433060194876,
+   "zip_bytes": 920679
+  },
+  {
+   "id": "00004553_004",
+   "corpus": "oneshot",
+   "title": "ABC 00004553 \u00b7 part 4",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 2.1,
+   "knit_secs": 0.2,
+   "groups": 6,
+   "triangles": 8026,
+   "faces": 6,
+   "types": {
+    "plane": 6
+   },
+   "edges": [
+    12,
+    12
+   ],
+   "vertices": [
+    8,
+    8
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 3.379739721250053e-07,
+   "vol_rel_err": 5.587935447692869e-16,
+   "param_err": {
+    "axis_deg": 0.0
+   },
+   "diag_mm": 1006.2305901034812,
+   "volume_mm3": 5000000.000000002,
+   "zip_bytes": 103987
+  },
+  {
+   "id": "00004607_001",
+   "corpus": "oneshot",
+   "title": "ABC 00004607 \u00b7 part 1",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 3.1,
+   "knit_secs": 0.5,
+   "groups": 6,
+   "triangles": 36910,
+   "faces": 6,
+   "types": {
+    "plane": 6
+   },
+   "edges": [
+    12,
+    12
+   ],
+   "vertices": [
+    8,
+    8
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 2.4303490085921213e-07,
+   "vol_rel_err": 9.110091110834524e-08,
+   "param_err": {
+    "axis_deg": 0.0
+   },
+   "diag_mm": 12.680300026907886,
+   "volume_mm3": 130.48199710000003,
+   "zip_bytes": 666571
+  },
+  {
+   "id": "00005570_005",
+   "corpus": "oneshot",
+   "title": "ABC 00005570 \u00b7 part 5",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 17.3,
+   "knit_secs": 1.7,
+   "groups": 6,
+   "triangles": 52574,
+   "faces": 6,
+   "types": {
+    "cylinder": 3,
+    "plane": 3
+   },
+   "edges": [
+    11,
+    9
+   ],
+   "vertices": [
+    8,
+    6
+   ],
+   "topology_identical": false,
+   "max_dev_mm": 1.1654311067163932e-08,
+   "vol_rel_err": 4.4918611271209e-10,
+   "param_err": {
+    "radius": 4.678999854235144e-09,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 46.368092822543396,
+   "volume_mm3": 13374.938023576846,
+   "zip_bytes": 1534047
+  },
+  {
+   "id": "00002138_008",
+   "corpus": "oneshot",
+   "title": "ABC 00002138 \u00b7 part 8",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 11.5,
+   "knit_secs": 0.7,
+   "groups": 5,
+   "triangles": 31980,
+   "faces": 5,
+   "types": {
+    "cylinder": 1,
+    "plane": 2,
+    "torus": 2
+   },
+   "edges": [
+    7,
+    8
+   ],
+   "vertices": [
+    4,
+    5
+   ],
+   "topology_identical": false,
+   "max_dev_mm": 1.288655304884417e-07,
+   "vol_rel_err": 1.773267408391153e-08,
+   "param_err": {
+    "radius": 9.748999829639615e-09,
+    "axis_deg": 0.0,
+    "major_radius": 9.145399992860348e-08,
+    "minor_radius": 1.0120200000240942e-07
+   },
+   "diag_mm": 14.921930076190767,
+   "volume_mm3": 225.72805711793097,
+   "zip_bytes": 743800
+  },
+  {
+   "id": "00003858_003",
+   "corpus": "oneshot",
+   "title": "ABC 00003858 \u00b7 part 3",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 9.4,
+   "knit_secs": 0.5,
+   "groups": 5,
+   "triangles": 31802,
+   "faces": 5,
+   "types": {
+    "cylinder": 2,
+    "plane": 3
+   },
+   "edges": [
+    6,
+    6
+   ],
+   "vertices": [
+    4,
+    4
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.0306711218644991e-07,
+   "vol_rel_err": 6.393988512299376e-09,
+   "param_err": {
+    "radius": 5.766000032991769e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 24.87971095491263,
+   "volume_mm3": 1007.9800029042856,
+   "zip_bytes": 739365
+  },
+  {
+   "id": "00000132_000",
+   "corpus": "oneshot",
+   "title": "ABC 00000132 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 7.5,
+   "knit_secs": 0.7,
+   "groups": 4,
+   "triangles": 22078,
+   "faces": 4,
+   "types": {
+    "cylinder": 2,
+    "plane": 2
+   },
+   "edges": [
+    6,
+    6
+   ],
+   "vertices": [
+    4,
+    4
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.6075193596952563e-08,
+   "vol_rel_err": 1.0808374085741493e-09,
+   "param_err": {
+    "radius": 1.248000014442141e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 22.70496946815829,
+   "volume_mm3": 273.0829414132927,
+   "zip_bytes": 435247
+  },
+  {
+   "id": "00000257_002",
+   "corpus": "oneshot",
+   "title": "ABC 00000257 \u00b7 part 2",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 10.4,
+   "knit_secs": 0.9,
+   "groups": 4,
+   "triangles": 26270,
+   "faces": 4,
+   "types": {
+    "cylinder": 2,
+    "plane": 2
+   },
+   "edges": [
+    6,
+    6
+   ],
+   "vertices": [
+    4,
+    4
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 3.02335610036555e-08,
+   "vol_rel_err": 2.153435542736586e-08,
+   "param_err": {
+    "radius": 1.207100019939844e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 9.998000108021609,
+   "volume_mm3": 36.28539514896212,
+   "zip_bytes": 585066
+  },
+  {
+   "id": "00004495_003",
+   "corpus": "oneshot",
+   "title": "ABC 00004495 \u00b7 part 3",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 14.1,
+   "knit_secs": 1.1,
+   "groups": 4,
+   "triangles": 56498,
+   "faces": 4,
+   "types": {
+    "cylinder": 2,
+    "plane": 2
+   },
+   "edges": [
+    6,
+    6
+   ],
+   "vertices": [
+    4,
+    4
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.948207792195582e-08,
+   "vol_rel_err": 4.6965576194538465e-09,
+   "param_err": {
+    "radius": 1.108799985161113e-08,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 13.304135041407244,
+   "volume_mm3": 214.41369860750336,
+   "zip_bytes": 1702930
+  },
+  {
+   "id": "00006058_042",
+   "corpus": "oneshot",
+   "title": "ABC 00006058 \u00b7 part 42",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 6.6,
+   "knit_secs": 0.4,
+   "groups": 4,
+   "triangles": 20402,
+   "faces": 4,
+   "types": {
+    "cylinder": 2,
+    "plane": 2
+   },
+   "edges": [
+    6,
+    6
+   ],
+   "vertices": [
+    4,
+    4
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 3.8192131676872965e-07,
+   "vol_rel_err": 2.287240829389374e-08,
+   "param_err": {
+    "radius": 8.797000017324308e-09,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 35.65625391195772,
+   "volume_mm3": 530.9027612244033,
+   "zip_bytes": 638232
+  },
+  {
+   "id": "00000392_001",
+   "corpus": "oneshot",
+   "title": "ABC 00000392 \u00b7 part 1",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 15.9,
+   "knit_secs": 1.5,
+   "groups": 3,
+   "triangles": 46796,
+   "faces": 3,
+   "types": {
+    "cylinder": 1,
+    "plane": 2
+   },
+   "edges": [
+    3,
+    3
+   ],
+   "vertices": [
+    2,
+    2
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 3.817972646745179e-07,
+   "vol_rel_err": 1.5694894886538414e-08,
+   "param_err": {
+    "radius": 3.884000676634969e-09,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 41.24161556658274,
+   "volume_mm3": 10530.247466520988,
+   "zip_bytes": 1344675
+  },
+  {
+   "id": "00000725_001",
+   "corpus": "oneshot",
+   "title": "ABC 00000725 \u00b7 part 1",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 10.7,
+   "knit_secs": 1.2,
+   "groups": 3,
+   "triangles": 34702,
+   "faces": 3,
+   "types": {
+    "cylinder": 1,
+    "plane": 2
+   },
+   "edges": [
+    3,
+    3
+   ],
+   "vertices": [
+    2,
+    2
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 3.856407783439302e-07,
+   "vol_rel_err": 1.497045433133636e-08,
+   "param_err": {
+    "radius": 7.410001501284569e-10,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 89.20909311522787,
+   "volume_mm3": 72944.95272319156,
+   "zip_bytes": 857689
+  },
+  {
+   "id": "00001339_007",
+   "corpus": "oneshot",
+   "title": "ABC 00001339 \u00b7 part 7",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 9.2,
+   "knit_secs": 0.6,
+   "groups": 3,
+   "triangles": 26478,
+   "faces": 3,
+   "types": {
+    "cylinder": 1,
+    "plane": 2
+   },
+   "edges": [
+    3,
+    3
+   ],
+   "vertices": [
+    2,
+    2
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.4381072268677185e-08,
+   "vol_rel_err": 5.173542349985958e-10,
+   "param_err": {
+    "radius": 2.32799912680548e-09,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 69.80687674147869,
+   "volume_mm3": 16540.485321150263,
+   "zip_bytes": 830815
+  },
+  {
+   "id": "00002533_001",
+   "corpus": "oneshot",
+   "title": "ABC 00002533 \u00b7 part 1",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 12.2,
+   "knit_secs": 0.9,
+   "groups": 3,
+   "triangles": 33018,
+   "faces": 3,
+   "types": {
+    "cylinder": 1,
+    "plane": 2
+   },
+   "edges": [
+    3,
+    3
+   ],
+   "vertices": [
+    2,
+    2
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 2.994955578666714e-06,
+   "vol_rel_err": 3.017286248719834e-08,
+   "param_err": {
+    "radius": 5.660005797381018e-10,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 112.98889620757252,
+   "volume_mm3": 113227.07980294999,
+   "zip_bytes": 1021077
+  },
+  {
+   "id": "00002606_000",
+   "corpus": "oneshot",
+   "title": "ABC 00002606 \u00b7 part 0",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 10.1,
+   "knit_secs": 0.7,
+   "groups": 3,
+   "triangles": 23412,
+   "faces": 3,
+   "types": {
+    "cylinder": 1,
+    "plane": 2
+   },
+   "edges": [
+    3,
+    3
+   ],
+   "vertices": [
+    2,
+    2
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 2.838739711224253e-08,
+   "vol_rel_err": 1.3086753305003991e-09,
+   "param_err": {
+    "radius": 6.575998412472472e-09,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 80.20610978024055,
+   "volume_mm3": 23798.15339956523,
+   "zip_bytes": 728357
+  },
+  {
+   "id": "00002966_010",
+   "corpus": "oneshot",
+   "title": "ABC 00002966 \u00b7 part 10",
+   "credit": "ABC dataset (Onshape public documents); copyright stays with the creator",
+   "link": "https://deep-geometry.github.io/abc-dataset/",
+   "mesher": "Onshape",
+   "paint_secs": 4.9,
+   "knit_secs": 0.2,
+   "groups": 3,
+   "triangles": 10058,
+   "faces": 3,
+   "types": {
+    "cylinder": 1,
+    "plane": 2
+   },
+   "edges": [
+    3,
+    3
+   ],
+   "vertices": [
+    2,
+    2
+   ],
+   "topology_identical": true,
+   "max_dev_mm": 1.52910093278927e-07,
+   "vol_rel_err": 2.943791848908616e-09,
+   "param_err": {
+    "radius": 3.066999987311192e-09,
+    "axis_deg": 0.0
+   },
+   "diag_mm": 10.261097255011283,
+   "volume_mm3": 8.237036780208921,
+   "zip_bytes": 310312
+  }
+ ]
+}
