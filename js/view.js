@@ -17,10 +17,11 @@ export const KIND_LABELS = {
   bspline: 'B-spline', revolution: 'Revolution', extrusion: 'Extrusion', other: 'Other',
 };
 export const KIND_COLORS = {
-  plane: '#c9d1dc', cylinder: '#2f9e94', cone: '#e09b2d', sphere: '#8a68c8', torus: '#d75a78',
-  bspline: '#5a9e4b', revolution: '#7f8b99', extrusion: '#7f8b99', other: '#7f8b99',
+  plane: '#b98cff', cylinder: '#2fc59a', cone: '#8a4fe0', sphere: '#ffc933', torus: '#ff5c8a',
+  bspline: '#ff7a1a', revolution: '#8f8399', extrusion: '#8f8399', other: '#8f8399',
 };
-const HIGHLIGHT = new THREE.Color('#ffd84a');
+// Untessellator's filament colors, as the studio paints surface types; a hovered face goes white, which no type is
+const HIGHLIGHT = new THREE.Color('#ffffff');
 
 export async function loadView(url) {
   const res = await fetch(url);
@@ -58,7 +59,7 @@ export function buildPart({ head, pos, idx, seg }) {
   const lines = new THREE.BufferGeometry();
   lines.setAttribute('position', new THREE.BufferAttribute(seg, 3));
   lines.translate(-centre.x, -centre.y, -centre.z);
-  const edges = new THREE.LineSegments(lines, new THREE.LineBasicMaterial({ color: '#1b2230' }));
+  const edges = new THREE.LineSegments(lines, new THREE.LineBasicMaterial({ color: '#1c1027' }));
   const group = new THREE.Group();
   group.add(mesh, edges);
   group.userData = { centre, head, mesh, edges, base };
@@ -206,7 +207,7 @@ export async function mountViewer(canvas, url, { onHover } = {}) {
       g.setAttribute('position', new THREE.BufferAttribute(soup, 3));
       g.translate(-part.userData.centre.x, -part.userData.centre.y, -part.userData.centre.z);
       const wire = new THREE.LineSegments(new THREE.WireframeGeometry(g),
-        new THREE.LineBasicMaterial({ color: '#3b4a63', transparent: true, opacity: 0.55 }));
+        new THREE.LineBasicMaterial({ color: '#2a1638', transparent: true, opacity: 0.55 }));
       g.dispose();
       scene.add(wire);
       overlays.set(name, wire);

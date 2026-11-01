@@ -4,7 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gallery Part · Untessellator</title>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3 28 10v12L16 29 4 22V10z' fill='%232f9e94'/%3E%3Cpath d='M16 3 28 10 16 17 4 10z' fill='%239aa9bf'/%3E%3C/svg%3E">
+  <link rel="icon" href="brand/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
   <link rel="stylesheet" href="style.css">
   <script type="importmap">
   {
@@ -18,16 +21,17 @@
 </head>
 <body>
   <header class="top">
-    <a class="brand" href="./">Untessellator <span>Gallery</span></a>
+    <a class="brand" href="./" aria-label="Untessellator Gallery"><i></i><span>Gallery</span></a>
     <nav>
-      <a href="https://h0witzer.github.io/Untessellator/">Open the studio</a>
+      <a href="https://untessellator.com/">Open the studio</a>
       <a href="https://github.com/h0witzer/Untessellator">GitHub</a>
     </nav>
   </header>
+  <div class="band" aria-hidden="true"></div>
 
   <main class="part">
     <div class="stage" id="stage">
-      <canvas id="view" aria-label="3D view of the exported STEP, faces coloured by surface type"></canvas>
+      <canvas id="view" aria-label="3D view of the exported STEP, faces colored by surface type"></canvas>
       <div class="status" id="status">Loading…</div>
       <div class="tools">
         <button id="fit">Fit</button>

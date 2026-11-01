@@ -1,4 +1,11 @@
-# Untessellator Gallery
+<p align="center">
+  <a href="https://h0witzer.github.io/Untessellator-Gallery/"><img src="brand/readme-banner.png" alt="Untessellator Gallery: mesh in, the original CAD back out" width="100%"></a>
+</p>
+
+<p align="center">
+  <a href="https://h0witzer.github.io/Untessellator-Gallery/"><img alt="Open the gallery" src="https://img.shields.io/badge/Open_the_gallery-h0witzer.github.io-b98cff?style=for-the-badge&labelColor=2a1638"></a>
+  <a href="https://untessellator.com"><img alt="Open the studio at untessellator.com" src="https://img.shields.io/badge/Open_the_studio-untessellator.com-2fc59a?style=for-the-badge&labelColor=2a1638"></a>
+</p>
 
 Meshes that [Untessellator](https://github.com/h0witzer/Untessellator) turned back into their original CAD, each
 checked face by face against the original STEP file.
@@ -42,10 +49,10 @@ This repository is a static site. GitHub Pages serves it as it is, with no build
 
 The 3D view uses [three.js](https://threejs.org/) from a CDN.
 
-## Credits and licences
+## Credits and licenses
 
 - **Parts:** the one-shot parts come from the ABC dataset (Koch et al., *ABC: A Big CAD Model Dataset for
   Geometric Deep Learning*, CVPR 2019), which collects public Onshape documents. Copyright stays with each
   part's creator, under Onshape's Terms of Use for public documents.
-- **Hand-painted parts** carry their own credit and licence on their page.
+- **Hand-painted parts** carry their own credit and license on their page.
 - **The site's code** is MIT-licensed, like Untessellator.
