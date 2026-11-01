@@ -6,8 +6,8 @@ const NOTES = {
     studio offers Repair; the parts that needed it are marked. The ${int(c.tried + (c.pending ?? 0))} candidates
     are Onshape's own mesh exports of ABC parts that no Untessellator model was trained or tuned on.${c.pending
     ? ` ${int(c.tried)} have run so far, and the rest are still running.` : ''}`,
-  painted: () => `Parts where Auto-paint came close, and a person repainted the faces it missed with the
-    studio's fill brush. They're held to the same bar as the one-shot parts.`,
+  painted: () => `Parts the one-shot run missed, which a person then repainted in the studio: a few faces on
+    some, most of them on others. They're held to the same bar as the one-shot parts.`,
 };
 const MISS_LABELS = {
   'face types differ': 'A face was split, merged or given the wrong surface type',
@@ -49,7 +49,9 @@ function stats() {
     : [[int(parts.length), 'parts matched after painting by hand'],
        [int(parts.reduce((s, p) => s + p.faces, 0)), 'faces recovered, every one'],
        [length(median(parts.map((p) => p.max_dev_mm))), 'median distance, worst face of each part'],
-       [int(parts.reduce((s, p) => s + (p.hand_groups ?? 0), 0)), 'faces painted by hand']];
+       parts.some((p) => p.hand_groups != null)     // only a part with its studio report has the count
+         ? [int(parts.reduce((s, p) => s + (p.hand_groups ?? 0), 0)), 'faces painted by hand']
+         : [int(Math.max(0, ...parts.map((p) => p.faces))), 'faces in the largest match']];
   $('stats').innerHTML = cells.map(([v, l]) => `<div class="stat"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
 }
 
