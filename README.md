@@ -27,7 +27,8 @@ A part is shown only if it **matches**. That means all of these hold:
 There are two collections:
 
 - **One-shot.** The studio's own code with its default settings: open the STL, press Auto-paint, then Export
-  STEP. Nobody touches it. The candidates are 300 parts from the
+  STEP. Nobody paints anything. When an export isn't every face analytic, the studio offers a Repair button.
+  Pressing it still counts as one-shot, and those parts are marked. The candidates are 300 parts from the
   [ABC dataset](https://deep-geometry.github.io/abc-dataset/), meshed by Onshape's own exporter. None of
   them was used to train or tune Untessellator. The page says how many matched, and why the rest didn't.
 - **Painted by hand.** Auto-paint first, then a person repaints the faces it got wrong in the studio. These

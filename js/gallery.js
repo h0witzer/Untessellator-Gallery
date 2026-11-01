@@ -1,9 +1,10 @@
 import { int, length, ORDER, kindVar } from './format.js';
 
 const NOTES = {
-  oneshot: (c) => `Each of these went through the studio's own code with its default settings: open the STL, press
-    Auto-paint, then Export STEP, with no hand edits. The ${int(c.tried + (c.pending ?? 0))} candidates are Onshape's
-    own mesh exports of ABC parts that no Untessellator model was trained or tuned on.${c.pending
+  oneshot: (c) => `Each of these went through the studio's own code with its default settings: open the STL,
+    press Auto-paint, then Export STEP. Nobody painted anything. When an export isn't every face analytic, the
+    studio offers Repair; the parts that needed it are marked. The ${int(c.tried + (c.pending ?? 0))} candidates
+    are Onshape's own mesh exports of ABC parts that no Untessellator model was trained or tuned on.${c.pending
     ? ` ${int(c.tried)} have run so far, and the rest are still running.` : ''}`,
   painted: () => `Parts where Auto-paint came close, and a person repainted the faces it missed with the
     studio's fill brush. They're held to the same bar as the one-shot parts.`,
@@ -40,7 +41,8 @@ function stats() {
   const c = data.corpora[corpus];
   const parts = data.parts.filter((p) => p.corpus === corpus);
   const cells = corpus === 'oneshot'
-    ? [[`${int(c.matched)} of ${int(c.tried)}`, `held-out parts matched on the first try${c.pending ? ' (run so far)' : ''}`],
+    ? [[`${int(c.matched)} of ${int(c.tried)}`, `held-out parts matched with no painting${c.pending ? ' (run so far)' : ''}${
+        c.repaired ? `, ${int(c.matched - c.repaired)} straight from Export` : ''}`],
        [int(parts.reduce((s, p) => s + p.faces, 0)), 'faces recovered, every one'],
        [length(median(parts.map((p) => p.max_dev_mm))), 'median distance, worst face of each part'],
        [int(Math.max(0, ...parts.map((p) => p.faces))), 'faces in the largest match']]
@@ -58,7 +60,8 @@ function chips(types) {
 
 function card(p) {
   const hand = p.corpus === 'painted' && p.hand_groups != null
-    ? `<div class="card-title">${int(p.hand_groups)} of ${int(p.faces)} faces painted by hand</div>` : '';
+    ? `<div class="card-title">${int(p.hand_groups)} of ${int(p.faces)} faces painted by hand</div>`
+    : p.repaired ? '<div class="card-title">after the Repair button</div>' : '';
   return `<a class="card" href="part.html?id=${encodeURIComponent(p.id)}">
     <div class="thumb"><img src="parts/${p.id}/thumb.png" loading="lazy" alt="${p.title}, ${p.faces} faces"></div>
     <div class="card-body">
@@ -96,6 +99,10 @@ function render() {
   for (const el of document.querySelectorAll('[data-count]')) el.textContent = int(data.parts.filter((p) => p.corpus === el.dataset.count).length);
   $('grid').setAttribute('aria-labelledby', `tab-${corpus}`);
   $('corpus-note').textContent = NOTES[corpus](data.corpora[corpus]).replace(/\s+/g, ' ');
+  if (data.engine) {
+    $('engine').innerHTML = `Results from Untessellator at commit <a href="https://github.com/h0witzer/Untessellator/commit/${
+      data.engine}"><code>${data.engine.slice(0, 7)}</code></a>, built ${data.generated}.`;
+  }
   stats();
   const all = data.parts.filter((p) => p.corpus === corpus);
   filters(all);

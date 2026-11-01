@@ -36,6 +36,8 @@ const closeness = [
 ].filter(Boolean);
 const timing = p.paint_secs != null
   ? `<dt>Auto-paint</dt><dd>${sig(p.paint_secs)} s</dd><dt>Export</dt><dd>${sig(p.knit_secs)} s</dd>` : '';
+const repair = p.repaired
+  ? `<dt>Repair button</dt><dd>${int(p.repair_kept)} change${p.repair_kept === 1 ? '' : 's'} kept, ${sig(p.repair_secs)} s</dd>` : '';
 const hand = p.corpus === 'painted' && p.hand_groups != null
   ? `<dt>Faces painted by hand</dt><dd>${int(p.hand_groups)} of ${int(p.groups ?? p.faces)}</dd>` : '';
 const sameTopo = p.edges[0] === p.edges[1] && p.vertices[0] === p.vertices[1];
@@ -79,14 +81,18 @@ $('facts').insertAdjacentHTML('beforeend', `
       <dt>Triangles</dt><dd>${int(p.triangles)}</dd>
       ${p.mesher ? `<dt>Exported by</dt><dd>${p.mesher}</dd>` : ''}
       <dt>Part size</dt><dd>${sig(p.diag_mm, 3)} mm across</dd>
-      ${timing}${hand}
+      ${timing}${repair}${hand}
     </dl>
+    ${p.repaired ? `<p class="note" style="margin-top:8px">The first export wasn't every face analytic, so the studio
+      offered Repair. Repair changed ${int(p.repair_kept)} group${p.repair_kept === 1 ? '' : 's'} on its own, and the
+      second export is the one shown.</p>` : ''}
   </div>
   <a class="download" href="parts/${p.id}/${p.id}.zip" download>Download the STL and both STEP files
     <small>input.stl · export.step · original.step · match.json · ${bytes(p.zip_bytes)}</small></a>
   <p class="note">Open export.step and original.step side by side in any CAD program. match.json has the
     numbers for every face. To run it yourself, drop input.stl on the
-    <a href="https://h0witzer.github.io/Untessellator/">studio</a> and press Auto-paint, then Export STEP.</p>
+    <a href="https://untessellator.com/">studio</a> and press Auto-paint, then Export STEP${p.repaired
+      ? ', then Repair when it\'s offered, then Export STEP again' : ''}.</p>
 `);
 
 $('legend').innerHTML = types.map((k) => `<span><i class="dot" style="--c:${kindVar(k)}"></i>${KIND_LABELS[k]}</span>`).join('');
