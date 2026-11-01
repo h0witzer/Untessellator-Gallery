@@ -83,15 +83,15 @@ $('facts').insertAdjacentHTML('beforeend', `
       <dt>Part size</dt><dd>${sig(p.diag_mm, 3)} mm across</dd>
       ${timing}${repair}${hand}
     </dl>
-    ${p.repaired ? `<p class="note" style="margin-top:8px">The first export wasn't every face analytic, so the studio
+    ${p.repaired ? `<p class="note" style="margin-top:8px">The first export wasn't every face analytic, so Untessellator
       offered Repair. Repair changed ${int(p.repair_kept)} group${p.repair_kept === 1 ? '' : 's'} on its own, and the
       second export is the one shown.</p>` : ''}
   </div>
   <a class="download" href="parts/${p.id}/${p.id}.zip" download>Download the STL and both STEP files
     <small>input.stl · export.step · original.step · match.json · ${bytes(p.zip_bytes)}</small></a>
   <p class="note">Open export.step and original.step side by side in any CAD program. match.json has the
-    numbers for every face. To run it yourself, drop input.stl on the
-    <a href="https://untessellator.com/">studio</a> and press Auto-paint, then Export STEP${p.repaired
+    numbers for every face. To run it yourself, drop input.stl into
+    <a href="https://untessellator.com/">Untessellator</a> and press Auto-paint, then Export STEP${p.repaired
       ? ', then Repair when it\'s offered, then Export STEP again' : ''}.</p>
 `);
 

@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://h0witzer.github.io/Untessellator-Gallery/"><img alt="Open the gallery" src="https://img.shields.io/badge/Open_the_gallery-h0witzer.github.io-b98cff?style=for-the-badge&labelColor=2a1638"></a>
-  <a href="https://untessellator.com"><img alt="Open the studio at untessellator.com" src="https://img.shields.io/badge/Open_the_studio-untessellator.com-2fc59a?style=for-the-badge&labelColor=2a1638"></a>
+  <a href="https://untessellator.com"><img alt="Open Untessellator at untessellator.com" src="https://img.shields.io/badge/Open_Untessellator-untessellator.com-2fc59a?style=for-the-badge&labelColor=2a1638"></a>
 </p>
 
 Meshes that [Untessellator](https://github.com/h0witzer/Untessellator) turned back into their original CAD, each
@@ -26,12 +26,12 @@ A part is shown only if it **matches**. That means all of these hold:
 
 There are two collections:
 
-- **One-shot.** The studio's own code with its default settings: open the STL, press Auto-paint, then Export
-  STEP. Nobody paints anything. When an export isn't every face analytic, the studio offers a Repair button.
+- **One-shot.** Untessellator's own code with its default settings: open the STL, press Auto-paint, then Export
+  STEP. Nobody paints anything. When an export isn't every face analytic, Untessellator offers a Repair button.
   Pressing it still counts as one-shot, and those parts are marked. The candidates are 300 parts from the
   [ABC dataset](https://deep-geometry.github.io/abc-dataset/), meshed by Onshape's own exporter. None of
   them was used to train or tune Untessellator. The page says how many matched, and why the rest didn't.
-- **Painted by hand.** Auto-paint first, then a person repaints the faces it got wrong in the studio. These
+- **Painted by hand.** Auto-paint first, then a person repaints the faces it got wrong in Untessellator. These
   parts must clear the same bar.
 
 Every part page offers a zip with the input STL, our STEP, the original STEP and the full per-face report,

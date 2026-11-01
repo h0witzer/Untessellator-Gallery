@@ -20,7 +20,7 @@ export const KIND_COLORS = {
   plane: '#b98cff', cylinder: '#2fc59a', cone: '#8a4fe0', sphere: '#ffc933', torus: '#ff5c8a',
   bspline: '#ff7a1a', revolution: '#8f8399', extrusion: '#8f8399', other: '#8f8399',
 };
-// Untessellator's filament colors, as the studio paints surface types; a hovered face goes white, which no type is
+// Untessellator's filament colors, as it paints surface types; a hovered face goes white, which no type is
 const HIGHLIGHT = new THREE.Color('#ffffff');
 
 export async function loadView(url) {
