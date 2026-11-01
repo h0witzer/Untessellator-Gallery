@@ -1,16 +1,16 @@
 <p align="center">
-  <a href="https://h0witzer.github.io/Untessellator-Gallery/"><img src="brand/readme-banner.png" alt="Untessellator Gallery: mesh in, the original CAD back out" width="100%"></a>
+  <a href="https://gallery.untessellator.com/"><img src="brand/readme-banner.png" alt="Untessellator Gallery: mesh in, the original CAD back out" width="100%"></a>
 </p>
 
 <p align="center">
-  <a href="https://h0witzer.github.io/Untessellator-Gallery/"><img alt="Open the gallery" src="https://img.shields.io/badge/Open_the_gallery-h0witzer.github.io-b98cff?style=for-the-badge&labelColor=2a1638"></a>
+  <a href="https://gallery.untessellator.com/"><img alt="Open the gallery" src="https://img.shields.io/badge/Open_the_gallery-gallery.untessellator.com-b98cff?style=for-the-badge&labelColor=2a1638"></a>
   <a href="https://untessellator.com"><img alt="Open Untessellator at untessellator.com" src="https://img.shields.io/badge/Open_Untessellator-untessellator.com-2fc59a?style=for-the-badge&labelColor=2a1638"></a>
 </p>
 
 Meshes that [Untessellator](https://github.com/h0witzer/Untessellator) turned back into their original CAD, each
 checked face by face against the original STEP file.
 
-**Live: <https://h0witzer.github.io/Untessellator-Gallery/>**
+**Live: <https://gallery.untessellator.com/>**
 
 ## What's on it
 
